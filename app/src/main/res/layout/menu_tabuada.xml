@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnVoltarTabuada"
+            android:background="@drawable/seta"
+            android:layout_gravity="bottom" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adição"
+            android:id="@+id/btnAdicao"
+            android:layout_weight="0.20" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subtração"
+            android:id="@+id/btnSubtracao"
+            android:layout_weight="0.22" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Multiplicação"
+            android:id="@+id/btnMultiplicacao" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Divisão"
+            android:id="@+id/btnDivisao"
+            android:layout_weight="0.30" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="67dp"
+            android:layout_height="70dp"
+            android:id="@+id/btnRankingTabuada"
+            android:layout_gravity="bottom"
+            android:background="@drawable/trofeu" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/oi">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/llNome"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Nome:"
+            android:id="@+id/tvNomeJogador"
+            android:textColor="@color/abc_background_cache_hint_selector_material_light"
+            android:textStyle="italic"
+            android:layout_weight="0.05" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtNomeJogador"
+            android:layout_weight="0.47" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="320dp"
+        android:layout_height="63dp"
+        android:id="@+id/llIdade">
+
+        <TextView
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Idade:"
+            android:id="@+id/tvIdade"
+            android:textColor="@color/abc_background_cache_hint_selector_material_light"
+            android:textStyle="italic" />
+
+        <EditText
+            android:layout_width="257dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:ems="10"
+            android:id="@+id/edtIdade" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/llJogar">
+
+        <Button
+            android:layout_width="178dp"
+            android:layout_height="134dp"
+            android:id="@+id/btnJogarLogin"
+            android:background="@drawable/sa" />
+    </LinearLayout>
+</LinearLayout>
+

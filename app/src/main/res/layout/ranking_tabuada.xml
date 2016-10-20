@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/raking"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Ranking"
+        android:id="@+id/tvRanking"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/abc_background_cache_hint_selector_material_light"
+        android:textStyle="bold"
+        android:layout_weight="0.05"
+        android:textSize="35dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:id="@+id/llPrimeiro">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="1º"
+            android:id="@+id/textView2"
+            android:textColor="@color/abc_background_cache_hint_selector_material_light"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvPrimeiroLugar"
+            android:textColor="@color/abc_background_cache_hint_selector_material_light"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:weightSum="1"
+        android:id="@+id/llSegundo">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="2º"
+            android:id="@+id/textView3"
+            android:textColor="@color/abc_background_cache_hint_selector_material_light"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvSegundoLugar"
+            android:layout_weight="1.02"
+            android:textColor="@color/abc_background_cache_hint_selector_material_light"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:weightSum="1"
+        android:id="@+id/llTerceiro">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="3º"
+            android:id="@+id/textView5"
+            android:textColor="@color/abc_background_cache_hint_selector_material_light"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTerceiroLugar"
+            android:layout_weight="1.03"
+            android:textColor="@color/abc_background_cache_hint_selector_material_light"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:weightSum="1"
+        android:id="@+id/llQuarto">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="4º"
+            android:id="@+id/textView7"
+            android:textColor="@color/abc_background_cache_hint_selector_material_light"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvQuartoLugar"
+            android:layout_weight="1.02"
+            android:textColor="@color/abc_background_cache_hint_selector_material_light"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:id="@+id/llQuinto">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="5º"
+            android:id="@+id/textView9"
+            android:textColor="@color/abc_background_cache_hint_selector_material_light"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvQuintoLugar"
+            android:textColor="@color/abc_background_cache_hint_selector_material_light"
+            android:textIsSelectable="false"
+            android:textSize="25dp"
+            android:layout_weight="0.05" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="169dp"
+        android:layout_height="102dp"
+        android:id="@+id/btnTabuadaRanking"
+        android:layout_gravity="right"
+        android:background="@drawable/btnvoltar"
+        android:layout_weight="0.04" />
+
+</LinearLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/memoria"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/btnPortaA"
+            android:background="@drawable/porta"
+            android:layout_weight=".18" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/btnPortaB"
+            android:background="@drawable/porta"
+            android:layout_weight=".18" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/btnPortaC"
+            android:background="@drawable/porta"
+            android:layout_weight="0.19" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/btnPortaD"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/porta"
+            android:layout_weight=".18" />
+
+        <Button
+            android:layout_width="0px"
+            android:layout_height="125dp"
+            android:id="@+id/btnVoltar"
+            android:layout_weight="0.26"
+            android:background="@drawable/btnvoltar" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/btnPorta1"
+            android:background="@drawable/porta"
+            android:layout_weight=".18" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/btnPorta2"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/porta"
+            android:layout_weight=".18" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/btnPorta3"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/porta"
+            android:layout_weight=".18" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/btnPorta4"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/porta"
+            android:layout_weight=".18" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/button2"
+            android:layout_weight=".28"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+</LinearLayout>
